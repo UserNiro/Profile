@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Notable&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Chathura:wght@400;800&family=Exo+2:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Notable&family=Noto+Sans+KR&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url(../img/mouse2.png) 2 2, auto;
+}
+body{    
+    font-family:'Noto Sans KR', sans-serif;
+    background-color: #222;
+    color: #fff;
+}
+img,svg,g{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,li{
+    list-style: none;
+}
+
+button{
+    background: inherit;
+    border:none;
+    box-shadow:none;
+    border-radius:0;
+    padding:0;
+    overflow:visible;
+    cursor:pointer
+}
